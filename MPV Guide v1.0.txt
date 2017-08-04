@@ -1,0 +1,144 @@
+## MPV Guide
+https://mpv.io/
+
+# Features -- https://imgur.com/a/ldJ9D
+
++ Minimal interface
++ CLI + audio through terminal
++ Drag+Drop functionality				# Drag files, hyperlinks or URLs directly from your address bar etc
++ Youtube-dl integration
+	* https://rg3.github.io/youtube-dl/supportedsites.html
++ Native vlive support
+
+# Installation
+
+[Manual] -- See step 5 to download all files together (Do You Trust Me?™)
+
+1. Download MPV.exe  https://mpv.srsfckn.biz/
+	* Official: https://mpv.io/installation/
+	
+	1a. Extract mpv.exe from archive
+		* Use 7zip if you don't already have it http://www.7-zip.org/download.html
+	
+	1b. Move mpv.exe to your home directory (Windows key + R, "%USERPROFILE%")
+	
+2. Download youtube-dl.exe https://rg3.github.io/youtube-dl/download.html
+	* click Windows exe
+	
+	2a. Move youtube-dl.exe to your home directory (Windows key + R, "%USERPROFILE%")
+	
+3. Download ffmpeg  https://ffmpeg.zeranoe.com/builds/
+    * ffmpeg.exe is located in the bin folder of the archive
+	
+	3a. Move ffmpeg.exe to your home directory (Windows key + R, "%USERPROFILE%")
+	
+4. Setup MPV config
+	
+	4a. Navigate to your roaming folder (Windows key + R, "%APPDATA%")
+	4b. Create a folder named mpv
+	4c. Download all mpv config files/scripts here: http://www118.zippyshare.com/v/kXBgSooo/file.html
+		* Mirror1: https://mega.nz/#!crZySJpS!wbWaitRtPqLiZC-Cp6GUXGiMeFBVuEWK9edzYp78HIA
+		* Mirror2: http://www.mediafire.com/file/5f8r5oa582fqt2c/mpv_config.zip
+
+		* input.conf & mpv.conf only: https://pastebin.com/0v20jFqL & https://pastebin.com/4Pcq5U1Q
+		
+		* Default mpv configs here: https://github.com/mpv-player/mpv/blob/master/etc/input.conf
+						             https://github.com/mpv-player/mpv/blob/master/etc/mpv.conf
+	
+	4d. Place all files in your mpv folder (drag+drop into provided shortcut)
+	4e. Start mpv by clicking the provided mpv.exe shortcut or navigating directly to the executable (Windows key + R, "%USERPROFILE%\mpv.exe")
+	4f. Refer to 5d
+	
+[Simple] -- mpv.exe, youtube-dl.exe and ffmpeg.exe all together
+	
+5. Download all required files here: http://www118.zippyshare.com/v/SBBz0aDs/file.html
+	* Mirror 1: https://mega.nz/#!ZnYigKaJ!IsBW1-SqehCmyDAIvZvtpvr--drRphw5G_6y6irJVAk
+	* Mirror 2: http://www.mediafire.com/file/436l34ukall3f74/mpv_all.zip
+	
+****5a. Skip to step 6 for a one-step install otherwise continue manually****
+	5b. Follow the folder ordering and just drag+drop all the relevant files into the provided shortcuts
+	5c. Start mpv by clicking the provided shortcut in mpv_all or navigating directly to the executable (Windows key + R, "%USERPROFILE%\mpv.exe")
+	5d. Review input.conf, mpv.conf and the MPV wiki linked below for keyboard shortcuts, video options etc
+	
+[EZ MODE]
+
+6. Install via automated batch file
+
+	6a. Place mpv_all folder on desktop
+	6b. Double-click Install.bat
+	6c. ???????????????????????????
+	6d. Profit
+	
+[Cleanup]
+
+1. Keep the mpv.exe shortcut or make your own by 
+
+	1a. Navigating to mpv.exe directory (Windows key + R, "%USERPROFILE%")
+	1b. Drag mpv.exe to your taskbar or create a shortcut via right-click -> context menu
+	
+2. Delete mpv_all from your desktop
+
+# CLI usage examples
+
+	Stream audio through terminal using youtube-dl
+	
+	1. Open terminal (Windows key + R, "cmd")
+	2. Start mpv with URL and several options
+	
+		mpv --no-video -shuffle -volume=100 --no-resume-playback $*
+			* where $* = one of the following:
+			
+A.			"C:\path\to\playlist.m3u"
+B.			URL/playlist eg https://www.youtube.com/playlist?list=PLn2nfuATkZsQfG8no7wsG2t6GnYtAy8OB
+C.			--playlist=C:\path\to\links.txt
+			
+			# Terminal Hotkeys / Defaults
+				https://mpv.io/manual/master/#interactive-control
+				
+			# For info regarding aliases refer to the [Advanced] section on line 44. of this youtube-dl guide: https://pastebin.com/sV9uU5xs
+				
+[Tips]
+
+1. Create a local playlist of all files matching an extension within a directory in terminal
+
+	1a. Open terminal (Windows key + R, "cmd")
+	1b. Navigate to folder containing video files (cd C:/path/to/folder or, if on another drive, X: & cd X:/path/to/folder)
+	1c. List all file paths, one per line, to a text file and save as .m3u
+	
+		dir *.mp3 /b /s | sort > %USERPROFILE%\Desktop\playlist.m3u
+	
+				1d. Set .m3u file extension to open with mpv by right-clicking playlist.m3u -> properties 
+				  -> change opens with -> more options -> look for another app on this PC
+				   -> type "%USERPROFILE%" in explorer address bar -> select mpv.exe
+		
+				1e. Now just double click any .m3u file to open a playlist in mpv
+		
+2. Save URLs to .m3u file for quick YouTube/web playlists -- https://i.imgur.com/p0tTEwE.gifv
+	2a. Download a browser extension for selecting links then saving to txt file or 
+
+		* Chrome: https://chrome.google.com/webstore/detail/link-klipper-extract-all/fahollcgofmpnehocdgofnhkkchiekoo?hl=en
+        * Firefox: https://addons.mozilla.org/en-US/firefox/addon/link-gopher/
+			* The functionality of this addon isn't the same as Link Klipper in that it can't select links via marquee tool but 
+			  it's still a decent tool for extracting video urls
+	2a. Right-click+drag over the titles/hyperlinks of videos you want in your playlist
+		* If you need to create multiple .txt files you can join them into one with the following command in terminal
+		
+			copy E:\path\to\downloads\files\*.txt %USERPROFILE%\Desktop\playlist.m3u
+			
+	3a. Double-click on playlist.m3u to open playlist
+	
+[Notes]
+
+* This installation requires manually updating youtube-dl.exe/mpv.exe/ffmpeg.exe from time to time
+
+MPV wiki
+https://mpv.io/manual/master/
+
+Youtube-dl guide
+https://pastebin.com/sV9uU5xs
+
+MPV User Scripts
+https://github.com/mpv-player/mpv/wiki/User-Scripts
+
+MPV LUA Scripts
+https://github.com/donmaiq/mpv-scripts

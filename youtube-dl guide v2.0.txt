@@ -1,0 +1,92 @@
+Downloading from YouTube
+
+Installation
+
+1. Download youtube-dl from https://rg3.github.io/youtube-dl/download.html
+2. Download ffmpeg from https://ffmpeg.zeranoe.com/builds/
+	* ffmpeg.exe is located in the bin folder of the archive
+3. Place youtube-dl.exe & ffmpeg.exe in your C:\Users\[Username]\ directory (windows key + R, "C:\Users\[your username here]", enter)
+
+Use
+
+1. Run Command Prompt (windows key + R "cmd", enter)
+2. Type "youtube-dl -f bestvideo+bestaudio [URL]"
+	* this will download video and audio files seperately and then merge them into an mkv container with ffmpeg
+	
+[Optional]
+	
+Configuration file
+	* https://github.com/rg3/youtube-dl/blob/master/README.md#configuration
+
+1. Navigate to your roaming folder (windows key + R, "C:\Users\[your username here]\AppData\Roaming", enter)
+2. Create a new folder called youtube-dl
+3. Inside of that folder create a txt file called config.txt
+4. Input one option per line and save
+
+	Recommended options
+
+	-o 'C:/path/to/downloads/%(uploader)s - %(title)s.%(ext)s'
+		* https://github.com/rg3/youtube-dl/blob/master/README.md#output-template
+	--add-metadata
+    --ignore-errors
+	--download-archive C:\Users\[your username]\AppData\Roaming\youtube-dl\downloaded.txt
+		* this will keep a list of urls you downloaded and skip them
+	-f bestvideo+bestaudio
+	
+		Examples
+
+		30FPS MAX IN MP4 CONTAINER
+		-f bestvideo[ext=mp4]+bestaudio[ext=m4a]
+
+		60FPS IN WEBM CONTAINTER
+		-f 315+bestaudio --merge-output-format webm
+	
+[Advanced]
+	
+Create an alias for youtube-dl
+
+1. Navigate to C:\Users\[your username]\
+2. Create a text file and name it aliases.cmd
+3. Add the following lines and save
+		@echo off
+        DOSKEY ydl=youtube-dl $*
+4. Run Command Prompt (windows key + R "cmd", enter)
+5. Input the following string
+	reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^ /t REG_EXPAND_SZ /d "%"USERPROFILE"%\aliases.cmd" /f
+		* this will make your aliases load when you launch cmd
+		* to delete it: reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun
+		
+Now you can simply type "ydl [URL]" to download videos with whatever options you have set in your config.
+ * Sometimes you may not want whatever options are set in your config so it is useful to set more than one alias as seen below
+
+	Examples
+	 
+	 Download audio as mp3
+		DOSKEY ydla=youtube-dl -f bestaudio -x --audio-format mp3 --embed-thumbnail $* -o "C:\path\to\folder\%%(uploader)s - %%(title)s.%%(ext)s"
+	
+	 Download only video
+		DOSKEY ydlv=youtube-dl -f bestvideo $* -o "C:\path\to\folder\%%(uploader)s - %%(title)s.%%(ext)s"
+		
+	  
+Convert to mp4 (for programs that don't support mkv/webm formats)
+
+	MKV to MP4 without reencoding (assuming the mkv contains mp4 compatible codecs)
+	
+	ffmpeg -i "C:/path/to/input.mkv" -codec copy "C:/path/to/output.mp4"
+		* just drag+drop the file onto command prompt to print the file path
+	
+	Any format to mp4 
+
+	ffmpeg -i "C:/path/to/input.ts" -vcodec libx264 -acodec aac -preset slow "C:/path/to/output.mp4"
+	
+Notes
+
+Youtube-dl wiki
+https://github.com/rg3/youtube-dl/blob/master/README.md#readme
+	* list of supported sites located here
+	
+Helpful ffmpeg+youtube-dl commands
+https://pastebin.com/z8npUD1X
+
+ffmpeg VP8 encoding
+https://trac.ffmpeg.org/wiki/Encode/VP8

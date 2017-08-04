@@ -1,0 +1,43 @@
+http://cytu.be
+https://cytu.be/r/kpganon
+
+
+* Supported websites/file extensions
+
+
+mp4, flv, webm, ogg, ogv, mp3, mov, m4a
+Youtube
+Dailymotion
+Streamable
+ * Hotlink to mp4 for full quality (inspect -> ctrl+f ".mp4?token=")
+Soundcloud
+Google Drive
+	*mp4s only through userscript (see notes)
+
+Vlive isn't supported because gooks still don't use https unfortunately,
+you can easily download vlive with either with youtube-dl or through
+the hotlink here http:home.soshistagram.com/naver_v/ and then host from google drive
+
+
+# Features
+
+
+Synced video
+Hotlink videos/audio directly (mp4, webm, mp3)
+Add youtube/soundcloud playlists
+multiple themes
+
+# Notes
+
+
+Best theme/layout is slate/synchtube + fluid
+
+to select videos from the playlist and force skip register here https://cytu.be/register
+
+Google drive userscript
+https://github.com/calzoneman/sync/wiki/Google-Drive-Userscript-Installation-Guide
+https://cytu.be/js/cytube-google-drive.user.js?v=1.1.1 (paste this script in your userscript extension)
+ * file must be mp4 or mp3
+
+Webms for hotlinking
+https://loopvid.appspot.com/blog

@@ -1,0 +1,139 @@
+﻿## Scraping Tistory
+
+# Requirements
+
+	python3
+	bash for windows
+	aria2c
+	fnr
+	
+# Installation
+
+1. Install python https://www.python.org/downloads/release/python-361/
+	* Windows x86-64 executable installer
+	* You might already have it installed. To check:
+		1a. Open terminal (Windows key + R, "cmd")
+		1b. Type python --version
+			* If it says Python 3.x.x you can skip this step
+			* If it says Python 2.7 it should still work
+		
+[2-4 optional] -- See step 5 to download all files together (Do You Trust Me?™)
+
+2. Install bash for windows (Portable version) https://github.com/git-for-windows/git/releases
+	* PortableGit-2.13.2-64-bit.7z.exe
+	
+	2a. Install to C:\Users\%USERNAME%\Desktop\TISTORY\PortableGit (or anywhere on C:/path/to/PortableGit)
+
+3. Install aria2c.exe https://github.com/aria2/aria2/releases
+	* aria2-1.32.0-win-64bit-build1.zip
+	
+	3a. Extract aria2c.exe from the archive
+	3b. Place in C:\Users\%USERNAME%\Desktop\TISTORY\PortableGit\mingw64\bin
+		*not in C:\Users\%USERNAME%\Desktop\TISTORY\PortableGit\bin (this folder only has 3 files)
+		
+	3c.(optional) Place into your %PATH% (Windows key + R, "%PATH%")
+	
+4. Install find and replace (fnr.exe) https://findandreplace.codeplex.com/
+
+	4a. Move fnr.exe to C:\path\to\TISTORY\
+		*optional: Place into your %PATH% directory (Windows key + R, "%PATH%" or "C:\Users\%USERNAME%\")
+	
+5. Download all required files: http://www20.zippyshare.com/v/fpsbrk4F/file.html
+	* Mirror1 http://www.mediafire.com/file/zvvcio8gfd84mw5/TISTORY.zip
+	* Mirror2 https://drive.google.com/file/d/0B1fLDre8fW1Sakc2YW9UcXFlekU/view?usp=sharing
+   
+   Scripts only here: http://www20.zippyshare.com/v/qJCeO4vD/file.html
+	* Mirror1 http://www.mediafire.com/file/9iakraooa73psed/Ripper.zip
+	* Mirror2 https://drive.google.com/file/d/0B1fLDre8fW1STk0xNzNISVlOQWM/view?usp=sharing
+
+# Usage
+
+1. Get all tistory pages/urls with python
+
+	1a. Open terminal (Windows key + R, "cmd")
+	1b. Navigate to the directory you downloaded the scripts to (type cd "C:\path\to\TISTORY\Ripper\")
+		* drag+drop the folder onto terminal to print the file path
+		
+			On C:/ drive:
+
+			cd C:\Users\%USERNAME%\desktop\TISTORY\Ripper\
+
+			On storage drive where X = drive letter:
+	
+			X: & cd X:\path\to\TISTORY\Ripper
+		
+	1c. Run RIP.py
+
+		python RIP.py
+
+		* if python isn't recognized, specify it's path manually:
+		
+		If python3 it should be
+		
+		"C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python35-32\python.exe" RIP.py
+
+		If python 2.7 it should be
+		
+		"C:\Python27\python.exe" RIP.py
+		
+			** if that doesn't work type the following in terminal to find your .exe path:
+				
+1.				py -3 [or py -2]
+2.				import os
+3.				sys.executable
+
+   + This will create folders for each page on tistory and then a list containing all /image/ links on that page
+		* To get the full resolution pictures, all links need to be changed to /original/ (step 4)
+
+4. Change all /image/ links to /original/
+
+	2a. Open terminal (Windows key + R, "cmd")
+	2b. Replace text with find and replace (fnr.exe)
+		
+	    "C:\path\to\TISTORY\Ripper\aria2c+fnr\fnr.exe" --cl --dir "C:\path\to\TISTORY\Ripper\download" --fileMask "*.txt" --includeSubDirectories --find "image" --replace "original"
+		
+			- Confirm text has been replaced by opening images.txt
+			
+5. Drag+drop Ripper folder to a drive/directory with enough space for several GB of pictures (X:\path\to\downloads\Ripper)
+
+6. Download Tistory pictures
+
+	4a. Open C:\path\to\PortableGit\git-bash.exe 
+	
+	4b. Navigate to download script directory
+	
+		cd X:\path\to\downloads\Ripper
+		
+	4c. Run get_links.bash
+		
+		"X:\path\to\downloads\Ripper\get_links.bash"
+		
+	+ This will loop through each folder in X:\path\to\downloads\Ripper\downloads and download each image link via aria2c
+	+ Per defualt settings aria2c will download 5 images simultaneously but you can change this by editing get_links.bash, just change 5 to your desired value
+		* Options located here: https://aria2.github.io/manual/en/html/aria2c.html
+	
+	4d. Wait for downloads to finish then close git-bash window
+	
+# Cleanup	
+
+1. Delete all the images.txt files left over
+
+	1a. Open terminal (Windows key + R, "cmd")
+	1b. Delete all files with desired extension (in this case .txt)
+	
+		del "X:\path\to\downloads\Ripper\download\*.txt" /s
+		
+2. Move all folders/pictures out of X:\path\to\downloads\Ripper\downloads\
+3. Move X:\path\to\downloads\Ripper folder back to C:\path\to\TISTORY\Ripper\
+4. You should now have a fresh C:\path\to\TISTORY\ directory
+
+[Notes]
+
+# Recommended image viewers
+
+Honeyview - https://imgur.com/a/9S6Wo
+http://www.bandisoft.com/honeyview/
+
+JPEGView - https://imgur.com/a/CNpzm
+https://sourceforge.net/projects/jpegview/
+* best settings: https://pastebin.com/GAaHdyye
