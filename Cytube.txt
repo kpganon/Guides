@@ -1,18 +1,20 @@
-http://cytu.be
 https://cytu.be/r/kpganon
+https://github.com/calzoneman/sync/wiki/CyTube-3.0-User-Guide
 
+## Overview
 
 * Supported websites/file extensions
-
+https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported
 
 mp4, flv, webm, ogg, ogv, mp3, mov, m4a
-Youtube
+YouTube
+Twitch
 Dailymotion
 Streamable
  * Hotlink to mp4 for full quality (inspect -> ctrl+f ".mp4?token=")
 Soundcloud
 Google Drive
-	*mp4s only through userscript (see notes)
+	*mp4s only through a userscript (see notes)
 
 Vlive isn't supported because gooks still don't use https unfortunately,
 you can easily download vlive with either with youtube-dl or through
@@ -21,18 +23,29 @@ the hotlink here http:home.soshistagram.com/naver_v/ and then host from google d
 
 # Features
 
-
-Synced video
+Chat
+Synced video (1-2 seconds by default)
 Hotlink videos/audio directly (mp4, webm, mp3)
 Add youtube/soundcloud playlists
-multiple themes
+
 
 # Notes
 
+Default channel permissions:
+
+Guests
++chat
++add to playlist
++queue playlists
++vote skip
+
+Leader
++skip video
++move playlist items
++delete playlist items
++open polls
 
 Best theme/layout is slate/synchtube + fluid
-
-to select videos from the playlist and force skip register here https://cytu.be/register
 
 Google drive userscript
 https://github.com/calzoneman/sync/wiki/Google-Drive-Userscript-Installation-Guide
@@ -41,3 +54,6 @@ https://cytu.be/js/cytube-google-drive.user.js?v=1.1.1 (paste this script in you
 
 Webms for hotlinking
 https://loopvid.appspot.com/blog
+
+Chat features
+http://i.imgur.com/Lnly7ka.jpg
