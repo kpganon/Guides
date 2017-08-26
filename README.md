@@ -1,8 +1,8 @@
 <p align="center"> 
 <img src="https://i.imgur.com/adLEOJT.gif">
 </p>
-<p align="center"> # Guides</p>
 
+# Guides
 
 [**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
 
