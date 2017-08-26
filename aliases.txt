@@ -1,36 +1,68 @@
 
+;= is a comment
+;= [optional] set variables in %USERPROFILE%\mybatfile.cmd as follows:
+;= SET DATESTAMP=%Date:~-2,2%%Date:~4,2%%Date:~7,2%
+;= SET TIMESTAMP=%time:~0,2%_%time:~3,2%_%time:~6,2%
+;= SET DESKTOPDIR=%USERPROFILE%\Desktop\
+
 ;= Shortcuts
 
+;= open desktop in explorer
 desktop=cd /D %USERPROFILE%\Desktop
-new=start E:\youtube-dl\New
+
+;= open current directory in explorer
 e=start .
+
+;= open alias file in default editor
 aliasfile="%USERPROFILE%\myaliases.txt"
+
+;= open files in notepad2
 batfile="C:\Program Files\Notepad2\Notepad2.exe" C:\Users\HTPC\mybatfile.cmd
 hangul="C:\Program Files\Notepad2\Notepad2.exe" H:\ORGANIZE2\KPOP\hangul.txt
 
 
 ;= Youtube-dl
 
+;= best available with m4a audio
 ydl=youtube-dl -f bestvideo+bestaudio[ext=m4a]/bestaudio $*
+
+;= audio only to custom dir
 ydla=youtube-dl -f bestaudio --extract-audio --audio-format mp3 --download-archive C:\Users\HTPC\AppData\Roaming\youtube-dl\downloaded.txt --embed-thumbnail --add-metadata -o "E:\youtube-dl\New\music\%(uploader)s\%(title)s.%(ext)s" $*
+
+;= best single format available
 ydlb=youtube-dl -f best $*
+
+;= video only to custom dir
 ydlv=youtube-dl -f bestvideo $* -o "C:\Users\HTPC\Desktop\%(uploader)s - %(title)s.%(ext)s"
+
+;= best available to custom dir (for twitter videos)
 dlt=youtube-dl -f best $* -o "C:\Users\HTPC\Desktop\%(uploader)s - %(title)s.%(ext)s"
 
+;= download soundcloud user's uploads to custom dir
 soundrip=youtube-dl --ignore-config --extract-audio --audio-format mp3 https://soundcloud.com/$1 --download-archive "C:\Users\HTPC\AppData\Roaming\youtube-dl\downloaded.txt" -o "H:\RIPS\Soundcloud\$1\%(uploader)s - %(title)s.%(ext)s"
 
+;= copy direct url to clipboard
 geturl=youtube-dl -f best -g $1|clip
 geturlb=youtube-dl -f $2 -g $1|clip
+
+;= get bestvideo available in mp4 format via youtube-dl and pip into mpv for viewing (useful for the mpv webm plugin which only supports mp4 with no audio from streaming sources)
 ydlcut=youtube-dl -f bestvideo[ext=mp4]/best -g $1 | xargs mpv
 
 ;= FFMPEG
 
+;= 2pass encoding from url
 webffm="C:\Users\HTPC\ffmpeg.exe" -i $1 -y -codec:v libvpx -quality good -cpu-used 0 -b:v 500k -qmin 10 -qmax 42 -maxrate 500k -bufsize 1000k -threads 4 -vf scale=-1:720 -an -pass 1 -f webm NUL && "C:\Users\HTPC\ffmpeg.exe" -i $1 -codec:v libvpx -quality good -cpu-used 0 -b:v 500k -qmin 10 -qmax 42 -maxrate 500k -bufsize 1000k -threads 4 -vf scale=-1:720 -codec:a libvorbis -b:a 128k -pass 2 -f webm "C:\Users\HTPC\Desktop\%DATESTAMP%@%TIMESTAMP%.webm"
-ffcopy=ffmpeg -i $1 -vcodec copy -an "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
-ffcopyaudio=ffmpeg -i $1 -vcodec copy -acodec aac "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
-ffmp4=ffmpeg -i $1 -vcodec libx264 -acodec aac "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
 
-;= WEBM.PY
+;= remove audio from webm without reencoding
+ffcopy=ffmpeg -i $1 -vcodec copy -an "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+
+;= copy vcodec and reencode audio
+ffcopyaudio=ffmpeg -i $1 -vcodec copy -acodec libvorbis "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+
+;= convert file to mp4
+ffmp4=ffmpeg -i $1 -vcodec libx264 -acodec aac "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.mp4"
+
+;= WEBM.PY (https://github.com/Kagami/webm.py)
 
 	;= 4chan
 webm4chan=webm.py -i $1 -vh 720 -an -l 3 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
@@ -46,22 +78,31 @@ webm8chana=webm.py -i $1 -vh 1080 -l 12 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%
 
 ;= MPV
 
+;= open given playlist file in mpv
 mpvp="C:\Users\HTPC\mpv.exe" -shuffle -volume=100 --no-resume-playback --window-scale=0.25 $*
-mpvpl="C:\Users\HTPC\mpv.exe" -shuffle -volume=100 --no-resume-playback --window-scale=0.25 "C:\Users\HTPC\Desktop\playlist.m3u"
+
+;= open predefined playlist file in mpv
+mpvpl="%USERPROFILE%\mpv.exe" -shuffle -volume=100 --no-resume-playback --window-scale=0.25 "%USERPROFILE%\Desktop\playlist.m3u"
+
+;= open audio file in mpv console
 mpva=mpv --no-video -volume=100 $*
+
+;= search youtube for audio
 mpvs=mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch100:"$*"
+
+;= search youtube for audio with custom # of results
 mpvs2=mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch$2:\"$1\"
 
 
 ;= OTHER
 
+;= open private fapcam playlist in mpv and shuffle
 fapcams=mpv --ytdl-format=bestvideo+bestaudio --ytdl-raw-options=username=[email],password=[password] --shuffle [PRIVATE PLAYLIST URL]
+
+;= open files in media player
 vlc="C:\Program Files (x86)\VLC\vlc.exe" $1
 mpc="C:\Program Files (x86)\MPC-HC\mpc-hc.exe" /fullscreen "$*"
 
 
 ;= ***END***
 ;=
-
-
-
