@@ -9,7 +9,7 @@
 
 # CLI tools
 
-[**youtube-dl**](https://github.com/kpganon/Guides/raw/master/youtube-dl%20guide%20v2.0.txt)
+[**youtube-dl**](https://github.com/kpganon/Guides/raw/master/youtube-dl%20guide%20v3.0.txt)
 
 [**ffmpeg**](https://github.com/kpganon/Guides/raw/master/ffmpeg%20guide%20rev%201.1.txt)
 
