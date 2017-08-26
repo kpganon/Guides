@@ -4,14 +4,10 @@
 <p align="center">
 <img src="http://i.imgur.com/fRjPY8E.gif">
 </p>
+
 <br>
 
-# Guides
-<p align="center">
-<h1 style="text-align:center">GUIDES</h1>
-</p>
-
-[**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
+<p align="center">[**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)</p>
 
 [**ffmpeg**](https://github.com/kpganon/Guides/blob/master/ffmpeg%20guide%20rev%201.1.txt)
 
