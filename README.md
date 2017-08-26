@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-<h1>GUIDES</h1>
+**GUIDES**
 </p>
 
 # CLI tools
@@ -29,6 +29,6 @@
 
 # Other
 
-[**cytube**](https://github.com/kpganon/Guides/raw/master/Cytube.txt)
+[**cytu.be/kpganon**](https://github.com/kpganon/Guides/raw/master/Cytube.txt)
 
-[**idol names in hangul**](https://github.com/kpganon/Guides/raw/master/hangul.txt)
+[**hangul.txt**](https://github.com/kpganon/Guides/raw/master/hangul.txt)
