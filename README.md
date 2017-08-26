@@ -8,7 +8,7 @@
 
 # Guides
 <p align="center">
-<h1>GUIDES</h1>
+<h1 style="text-align:center">GUIDES</h1>
 </p>
 
 [**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
