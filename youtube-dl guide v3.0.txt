@@ -18,7 +18,7 @@
 Configuration file
 	* https://github.com/rg3/youtube-dl/blob/master/README.md#configuration
 
-1. Navigate to your roaming folder (windows key + R, "%APPDATA%", enter)
+1. Navigate to your roaming folder (windows key + R, "%APPDATA%")
 2. Create a new folder called youtube-dl
 3. Inside of that folder create a txt file called config.txt
 	3a. steps 1-3 in one command
@@ -53,9 +53,9 @@ Create an alias for youtube-dl
 		@echo off
     doskey /macrofile="%USERPROFILE%\myaliases.txt"
 4. Create a second text file and name myaliases.txt
-5. Add the following lines and save
+5. Add the following line and save
 		ydl=youtube-dl -f bestvideo+bestaudio $*
-6. Run Command Prompt (windows key + R "cmd", enter)
+6. Run Command Prompt (windows key + R "cmd")
 7. Input the following string
 	reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^ /t REG_EXPAND_SZ /d "%"USERPROFILE"%\mybatfile.cmd" /f
 		* this will make your aliases load every time you launch terminal
@@ -87,12 +87,12 @@ Convert to mp4 (for programs that don't support mkv/webm formats)
 
 # Notes
 
+Helpful ffmpeg+youtube-dl commands
+https://pastebin.com/z8npUD1X
+
 Youtube-dl wiki
 https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 	* list of supported sites located here
-
-Helpful ffmpeg+youtube-dl commands
-https://pastebin.com/z8npUD1X
 
 ffmpeg VP8 encoding
 https://trac.ffmpeg.org/wiki/Encode/VP8
