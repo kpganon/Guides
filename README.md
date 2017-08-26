@@ -7,21 +7,17 @@
 
 <br>
 
-<p align="center">
-**GUIDES**
-</p>
-
 # CLI tools
 
 [**youtube-dl**](https://github.com/kpganon/Guides/raw/master/youtube-dl%20guide%20v2.0.txt)
 
 [**ffmpeg**](https://github.com/kpganon/Guides/raw/master/ffmpeg%20guide%20rev%201.1.txt)
 
-# Media
+# Media playback
 
 [**mpv**](https://github.com/kpganon/Guides/raw/master/MPV%20Guide%20v1.0.txt)
 
-# Scraping images
+# Downloading images
 
 [**ripping kpics**](https://github.com/kpganon/Guides/blob/master/Ripping%20kpics%20with%20downthemal!.txt)
 
