@@ -1,4 +1,8 @@
 ![alt text](http://i.imgur.com/gJcdJsQ.png "The One True Guy") 
+
+<p align="center"> 
+<img src="http://i.imgur.com/gJcdJsQ.png">
+</p>
 # Guides
 
 
