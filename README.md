@@ -1,4 +1,4 @@
-![alt text](http://i.imgur.com/exznziy.png "The One True Guy") 
+![alt text](http://i.imgur.com/gJcdJsQ.png "The One True Guy") 
 # Guides
 
 
