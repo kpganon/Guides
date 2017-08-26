@@ -25,7 +25,7 @@
 
 # Other
 
-[**cytu.be/kpganon**](https://github.com/kpganon/Guides/raw/master/Cytube.txt)
+[**cytu.be/r/kpganon**](https://github.com/kpganon/Guides/raw/master/Cytube.txt)
 
 [**hangul.txt**](https://github.com/kpganon/Guides/raw/master/hangul.txt)
 
