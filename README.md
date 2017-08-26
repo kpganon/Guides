@@ -28,3 +28,5 @@
 [**cytu.be/kpganon**](https://github.com/kpganon/Guides/raw/master/Cytube.txt)
 
 [**hangul.txt**](https://github.com/kpganon/Guides/raw/master/hangul.txt)
+
+[**aliases.txt**](https://github.com/kpganon/Guides/raw/master/aliases.txt)
