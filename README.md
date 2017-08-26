@@ -1,7 +1,10 @@
 <p align="center"> 
 <img src="http://i.imgur.com/fRjPY8E.gif">
 </p>
-
+<br>
+<p align="right"> 
+<img src="http://i.imgur.com/nOcOnyE.gif">
+</p>
 # Guides
 
 [**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
