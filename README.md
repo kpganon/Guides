@@ -7,7 +7,8 @@
 
 <br>
 
-<p align="center">[**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)</p>
+<div style="text-align:center">
+[**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
 
 [**ffmpeg**](https://github.com/kpganon/Guides/blob/master/ffmpeg%20guide%20rev%201.1.txt)
 
@@ -20,3 +21,4 @@
 [**cytube**](https://github.com/kpganon/Guides/blob/master/Cytube.txt)
 
 [**idol names in hangul**](https://github.com/kpganon/Guides/blob/master/hangul.txt)
+</div>
