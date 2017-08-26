@@ -7,7 +7,9 @@
 <br>
 
 # Guides
-<center>GUIDES</center>
+<p align="center">
+<h1>GUIDES</h1>
+</p>
 
 [**youtube-dl**](https://github.com/kpganon/Guides/blob/master/youtube-dl%20guide%20v2.0.txt)
 
