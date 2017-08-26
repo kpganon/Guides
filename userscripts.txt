@@ -1,0 +1,25 @@
+https://greasyfork.org/scripts/18295-instagram-allow-saveimage/
+https://greasyfork.org/en/scripts/14755-instagram-reloaded/
+
+https://greasyfork.org/en/scripts/20717-right-click-save-images-on-twitter/
+https://greasyfork.org/en/scripts/11074-twimg-redirect-orig
+https://greasyfork.org/scripts/9510-twitter-image-orig-promoter/
+
+https://greasyfork.org/scripts/2512-tistory-add-original-links/
+ *https://userscripts-mirror.org/scripts/show/185758
+https://gitlab.com/loopvid/scripts/blob/master/userscripts/tistory_image_to_original.user.js
+
+https://greasyfork.org/en/scripts/9014-tumblr-image-size
+https://greasyfork.org/en/scripts/1190-flickr-original-link
+
+https://gitlab.com/loopvid/scripts/tree/master/userscripts
+https://gitlab.com/loopvid/scripts/blob/master/userscripts/naver_blog_image_to_original.user.js
+https://gitlab.com/loopvid/scripts/raw/master/userscripts/add_hidden_links_to_originals.user.js
+
+https://greasyfork.org/en/scripts/5038-weibo-larger-pics-%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E4%B9%8B%E6%88%91%E8%A6%81%E7%9C%8B%E5%A4%A7%E5%9B%BE
+ * weibo
+
+https://greasyfork.org/en/scripts/16771-filter-youtube-subscriptions-videos
+https://greasyfork.org/en/scripts/9932-youtube
+
+
