@@ -135,7 +135,7 @@ MPV wiki
 https://mpv.io/manual/master/
 
 Youtube-dl guide
-https://pastebin.com/sV9uU5xs
+https://pastebin.com/U96JnFL7
 
 MPV User Scripts
 https://github.com/mpv-player/mpv/wiki/User-Scripts
