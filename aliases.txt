@@ -1,0 +1,67 @@
+
+;= Shortcuts
+
+desktop=cd /D %USERPROFILE%\Desktop
+new=start E:\youtube-dl\New
+e=start .
+aliasfile="%USERPROFILE%\myaliases.txt"
+batfile="C:\Program Files\Notepad2\Notepad2.exe" C:\Users\HTPC\mybatfile.cmd
+hangul="C:\Program Files\Notepad2\Notepad2.exe" H:\ORGANIZE2\KPOP\hangul.txt
+
+
+;= Youtube-dl
+
+ydl=youtube-dl -f bestvideo+bestaudio[ext=m4a]/bestaudio $*
+ydla=youtube-dl -f bestaudio --extract-audio --audio-format mp3 --download-archive C:\Users\HTPC\AppData\Roaming\youtube-dl\downloaded.txt --embed-thumbnail --add-metadata -o "E:\youtube-dl\New\music\%(uploader)s\%(title)s.%(ext)s" $*
+ydlb=youtube-dl -f best $*
+ydlv=youtube-dl -f bestvideo $* -o "C:\Users\HTPC\Desktop\%(uploader)s - %(title)s.%(ext)s"
+dlt=youtube-dl -f best $* -o "C:\Users\HTPC\Desktop\%(uploader)s - %(title)s.%(ext)s"
+
+soundrip=youtube-dl --ignore-config --extract-audio --audio-format mp3 https://soundcloud.com/$1 --download-archive "C:\Users\HTPC\AppData\Roaming\youtube-dl\downloaded.txt" -o "H:\RIPS\Soundcloud\$1\%(uploader)s - %(title)s.%(ext)s"
+
+geturl=youtube-dl -f best -g $1|clip
+geturlb=youtube-dl -f $2 -g $1|clip
+ydlcut=youtube-dl -f bestvideo[ext=mp4]/best -g $1 | xargs mpv
+
+;= FFMPEG
+
+webffm="C:\Users\HTPC\ffmpeg.exe" -i $1 -y -codec:v libvpx -quality good -cpu-used 0 -b:v 500k -qmin 10 -qmax 42 -maxrate 500k -bufsize 1000k -threads 4 -vf scale=-1:720 -an -pass 1 -f webm NUL && "C:\Users\HTPC\ffmpeg.exe" -i $1 -codec:v libvpx -quality good -cpu-used 0 -b:v 500k -qmin 10 -qmax 42 -maxrate 500k -bufsize 1000k -threads 4 -vf scale=-1:720 -codec:a libvorbis -b:a 128k -pass 2 -f webm "C:\Users\HTPC\Desktop\%DATESTAMP%@%TIMESTAMP%.webm"
+ffcopy=ffmpeg -i $1 -vcodec copy -an "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+ffcopyaudio=ffmpeg -i $1 -vcodec copy -acodec aac "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+ffmp4=ffmpeg -i $1 -vcodec libx264 -acodec aac "C:\Users\HTPC\Desktop\%DATESTAMP%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+
+;= WEBM.PY
+
+	;= 4chan
+webm4chan=webm.py -i $1 -vh 720 -an -l 3 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+webm4chan2=webm.py -i $1 -vh $2 -an -l 3 -mt "$3" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+webm4chan3=webm.py -i $1 -vh $2 -an -l $3 -mt "$4" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+webm4chansd=webm.py -i $1 -vh 480 -an -l 3 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+
+
+	;= 8chan
+webm8chan=webm.py -i $1 -vh 1080 -an -l 12 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+webm8chana=webm.py -i $1 -vh 1080 -l 12 -mt "$2" -vp8 -o %DESKTOPDIR%%DATESTAMP%@%TIMESTAMP%.webm
+
+
+;= MPV
+
+mpvp="C:\Users\HTPC\mpv.exe" -shuffle -volume=100 --no-resume-playback --window-scale=0.25 $*
+mpvpl="C:\Users\HTPC\mpv.exe" -shuffle -volume=100 --no-resume-playback --window-scale=0.25 "C:\Users\HTPC\Desktop\playlist.m3u"
+mpva=mpv --no-video -volume=100 $*
+mpvs=mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch100:"$*"
+mpvs2=mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch$2:\"$1\"
+
+
+;= OTHER
+
+fapcams=mpv --ytdl-format=bestvideo+bestaudio --ytdl-raw-options=username=[email],password=[password] --shuffle [PRIVATE PLAYLIST URL]
+vlc="C:\Program Files (x86)\VLC\vlc.exe" $1
+mpc="C:\Program Files (x86)\MPC-HC\mpc-hc.exe" /fullscreen "$*"
+
+
+;= ***END***
+;=
+
+
+
