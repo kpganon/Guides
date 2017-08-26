@@ -1,7 +1,9 @@
 
 ;= is a comment
 ;= [optional] set variables in %USERPROFILE%\mybatfile.cmd as follows:
+;= YYYYMMDD
 ;= SET DATESTAMP=%Date:~-2,2%%Date:~4,2%%Date:~7,2%
+;= HH_MM_SS
 ;= SET TIMESTAMP=%time:~0,2%_%time:~3,2%_%time:~6,2%
 ;= SET DESKTOPDIR=%USERPROFILE%\Desktop\
 
