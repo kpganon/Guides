@@ -1,5 +1,21 @@
 ## FFMPEG
 
+# YYMMDD@HH_MM_SS filename string
+
+-o %USERPROFILE%\Desktop\%Date:~-2,2%%Date:~4,2%%Date:~7,2%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
+
+# Lossless conversion
+
+ffmpeg -i input.avi -c:v libx264 -preset veryslow -qp 0 output.mp4
+
+#Convert file from url and limit filesize without reencoding
+
+ffmpeg -i https://giant.gfycat.com/file.mp4 -fs 12M -c copy C:\path\to\output.mp4
+
+#Convert file from url, downscale, limit filesize with reencoding
+
+ffmpeg -i https://giant.gfycat.com/file.mp4 -vf scale=1280:-2 -fs 12M -vcodec libx264 C:\path\to\output.mp4
+
 # Remove audio from video
 	ffmpeg -i input.mkv -vcodec copy -an output.mkv
 
