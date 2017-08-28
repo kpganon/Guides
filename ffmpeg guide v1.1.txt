@@ -71,6 +71,10 @@ file 'C:\path\to\input3.mp4'
 
 # To stop a stream in progress, press Q in the terminal window
 
+# Download multiple urls at once
+
+youtube-dl [options] [URL1] [URL2] [URL3]
+
 # Batch download URLs from list
 
 youtube-dl --batch-file='/path/to/list.txt'
