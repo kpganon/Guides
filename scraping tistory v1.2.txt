@@ -78,9 +78,9 @@
 		
 			** if that doesn't work type the following in terminal to find your .exe path:
 				
-1.				py -3 [or py -2]
-2.				import os
-3.				sys.executable
+				1. py -3 [or py -2]
+				2. import os
+				3. sys.executable
 
    + This will create folders for each page on tistory and then a list containing all /image/ links on that page
 		* To get the full resolution pictures, all links need to be changed to /original/ (step 4)
