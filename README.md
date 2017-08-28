@@ -15,7 +15,7 @@
 
 # Media playback
 
-[**mpv**](https://github.com/kpganon/Guides/blob/master/mpv%20guide%20v1.0.txt)
+[**mpv**](https://github.com/kpganon/MPV)
 
 # Downloading images
 
