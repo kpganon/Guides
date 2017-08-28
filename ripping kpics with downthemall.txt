@@ -14,7 +14,7 @@ Instructions
 1. Open DownThemAll! Preferences 
 2. Click the 'Anti-Container' page then 'Install Plugin' at the bottom
 3. Navigate to where you extracted DownThemAll! Anti-Containers.zip
-4. Install all 3 .json files
+4. Install all .json files
 
 Usage -- see https://imgur.com/a/jmBu7
 
