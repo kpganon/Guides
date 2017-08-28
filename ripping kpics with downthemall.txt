@@ -7,8 +7,7 @@ Requirements
 	*Greasemonkey works too
 3. DownThemAll! - https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 4. DownThemAll! Anti-Container - https://addons.mozilla.org/en-US/firefox/addon/downthemall-anticontainer/
-5. DownThemAll! Anti-Container plugins - http://www48.zippyshare.com/v/dotSBFmk/file.html
-	* mirror: https://mega.nz/#!gdA1wQTZ!v86yTYAwB_EHjrsejsOj8IKIBNh3j6ceJ4ToI-a-Beg
+5. DownThemAll! Anti-Container plugins - https://mega.nz/#!B2RilCpB!0nHqfbp8vZYyGC7EeFEChCnPJYD1cQVy1KzTvpoYmKI
 
 Instructions
 
