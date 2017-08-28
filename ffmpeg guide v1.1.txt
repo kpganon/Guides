@@ -85,4 +85,4 @@ youtube-dl --batch-file='/path/to/list.txt'
 # Automate with cron
 
 Every day @noon
-	>@daily youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive '~/.config/youtube-dl/downloaded.txt' -o '~/files/youtube/%(uploader)s - %(title)s.%(ext)s'
+	@daily youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive '~/.config/youtube-dl/downloaded.txt' -o '~/files/youtube/%(uploader)s - %(title)s.%(ext)s'
