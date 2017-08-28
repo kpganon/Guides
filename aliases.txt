@@ -20,7 +20,7 @@ aliasfile="%USERPROFILE%\myaliases.txt"
 
 ;= open files in notepad2
 batfile="C:\Program Files\Notepad2\Notepad2.exe" C:\Users\HTPC\mybatfile.cmd
-hangul="C:\Program Files\Notepad2\Notepad2.exe" H:\ORGANIZE2\KPOP\hangul.txt
+hangul="C:\Program Files\Notepad2\Notepad2.exe" C:\path\to\hangul.txt
 
 
 ;= Youtube-dl
