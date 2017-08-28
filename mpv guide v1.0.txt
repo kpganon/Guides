@@ -36,11 +36,10 @@ https://mpv.io/
 	
 	4a. Navigate to your roaming folder (Windows key + R, "%APPDATA%")
 	4b. Create a folder named mpv
-	4c. Download all mpv config files/scripts here: http://www118.zippyshare.com/v/kXBgSooo/file.html
-		* Mirror1: https://mega.nz/#!crZySJpS!wbWaitRtPqLiZC-Cp6GUXGiMeFBVuEWK9edzYp78HIA
-		* Mirror2: http://www.mediafire.com/file/5f8r5oa582fqt2c/mpv_config.zip
+	4c. Download all mpv config files/scripts here: https://mega.nz/#!9qxWkKYK!yXJJLhi7iuTkOZ6qMc_WUw1XDFMABr02IXn_qt291o0
+		* Mirror: http://www.mediafire.com/file/6j15nfiyekuiryq/mpv_config_1.2.zip
 
-		* input.conf & mpv.conf only: https://pastebin.com/0v20jFqL & https://pastebin.com/4Pcq5U1Q
+		* input.conf & mpv.conf only: https://git.io/v5GJ6 & https://git.io/v5GJX
 		
 		* Default mpv configs here: https://github.com/mpv-player/mpv/blob/master/etc/input.conf
 						             https://github.com/mpv-player/mpv/blob/master/etc/mpv.conf
@@ -51,9 +50,8 @@ https://mpv.io/
 	
 [Simple] -- mpv.exe, youtube-dl.exe and ffmpeg.exe all together
 	
-5. Download all required files here: http://www118.zippyshare.com/v/SBBz0aDs/file.html
-	* Mirror 1: https://mega.nz/#!ZnYigKaJ!IsBW1-SqehCmyDAIvZvtpvr--drRphw5G_6y6irJVAk
-	* Mirror 2: http://www.mediafire.com/file/436l34ukall3f74/mpv_all.zip
+5. Download all required files here: https://mega.nz/#!xmgxVTaL!l5e-RMSw2GMOeA0I9GRV4fV4nzcAkfZZ7tEPB3u5X1c
+	* Mirror: http://www.mediafire.com/file/jg1a1ocf5o650oe/mpv_all_1.2.zip
 	
 ****5a. Skip to step 6 for a one-step install otherwise continue manually****
 	5b. Follow the folder ordering and just drag+drop all the relevant files into the provided shortcuts
@@ -135,10 +133,9 @@ MPV wiki
 https://mpv.io/manual/master/
 
 Youtube-dl guide
-https://pastebin.com/U96JnFL7
-
-MPV User Scripts
-https://github.com/mpv-player/mpv/wiki/User-Scripts
+https://git.io/v5sMF
 
 MPV LUA Scripts
-https://github.com/donmaiq/mpv-scripts
+https://github.com/mpv-player/mpv/wiki/User-Scripts
+https://github.com/occivink/mpv-scripts
+https://github.com/Kagami/mpv_slicing
