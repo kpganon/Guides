@@ -32,3 +32,5 @@
 [**hangul.txt**](https://github.com/kpganon/Guides/blob/master/hangul.txt)
 
 [**aliases.txt**](https://github.com/kpganon/Guides/blob/master/aliases.txt)
+
+[**performance cuts**](https://github.com/kpganon/Guides/blob/master/show%20resources.txt)
