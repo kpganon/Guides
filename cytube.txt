@@ -52,8 +52,8 @@ https://github.com/calzoneman/sync/wiki/Google-Drive-Userscript-Installation-Gui
 https://cytu.be/js/cytube-google-drive.user.js?v=1.1.1 (paste this script in your userscript extension)
  * file must be mp4 or mp3
 
-Webms for hotlinking
-https://loopvid.appspot.com/blog
-
 Chat features
 http://i.imgur.com/Lnly7ka.jpg
+
+Webms for hotlinking
+https://loopvid.appspot.com/blog
