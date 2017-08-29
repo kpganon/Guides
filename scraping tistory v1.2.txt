@@ -38,11 +38,11 @@
 	4a. Move fnr.exe to C:\path\to\TISTORY\
 		*optional: Place into your %PATH% directory (Windows key + R, "%PATH%" or "C:\Users\%USERNAME%\")
 	
-5. Download all required files: http://www20.zippyshare.com/v/fpsbrk4F/file.html
+5. Download all required files: https://mega.nz/#!97IAFahC!VLzIsNGE2V5Fm79PkKO_xXPJjcEC8W9Ho8aLPcayonE
 	* Mirror1 http://www.mediafire.com/file/zvvcio8gfd84mw5/TISTORY.zip
 	* Mirror2 https://drive.google.com/file/d/0B1fLDre8fW1Sakc2YW9UcXFlekU/view?usp=sharing
    
-   Scripts only here: http://www20.zippyshare.com/v/qJCeO4vD/file.html
+   Scripts only here: https://mega.nz/#!V7pxWZqQ!piBIrfQtW70db_Ai1AvEpmBAY_OhOvmfBjTvjHiZs4I
 	* Mirror1 http://www.mediafire.com/file/9iakraooa73psed/Ripper.zip
 	* Mirror2 https://drive.google.com/file/d/0B1fLDre8fW1STk0xNzNISVlOQWM/view?usp=sharing
 
@@ -78,9 +78,9 @@
 		
 			** if that doesn't work type the following in terminal to find your .exe path:
 				
-1.				py -3 [or py -2]
-2.				import os
-3.				sys.executable
+				1. py -3 [or py -2]
+				2. import os
+				3. sys.executable
 
    + This will create folders for each page on tistory and then a list containing all /image/ links on that page
 		* To get the full resolution pictures, all links need to be changed to /original/ (step 4)

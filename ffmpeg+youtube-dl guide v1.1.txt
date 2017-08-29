@@ -8,11 +8,11 @@
 
 ffmpeg -i input.avi -c:v libx264 -preset veryslow -qp 0 output.mp4
 
-#Convert file from url and limit filesize without reencoding
+#Convert file from url and limit filesize 
 
 ffmpeg -i https://giant.gfycat.com/file.mp4 -fs 12M -c copy C:\path\to\output.mp4
 
-#Convert file from url, downscale, limit filesize with reencoding
+#Convert file from url, downscale, limit filesize 
 
 ffmpeg -i https://giant.gfycat.com/file.mp4 -vf scale=1280:-2 -fs 12M -vcodec libx264 C:\path\to\output.mp4
 
@@ -78,8 +78,6 @@ youtube-dl [options] [URL1] [URL2] [URL3]
 # Batch download URLs from list
 
 youtube-dl --batch-file='/path/to/list.txt'
-
-# To stop a stream in progress, press Q in the terminal window
 
 [Linux only]
 

@@ -62,7 +62,7 @@ Create an alias for youtube-dl
 		* to delete it: reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun
 
 Now you can simply type "ydl [URL]" to download videos with whatever options you have set in your config.
- * Sometimes you may not want whatever options are set by defualt so it is useful to set more than one alias as seen below:
+ * Sometimes you may not want whatever options are set by default so it is useful to set more than one alias as seen below:
 
 	Examples
 
