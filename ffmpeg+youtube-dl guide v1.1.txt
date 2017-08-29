@@ -1,6 +1,6 @@
 ## FFMPEG
 
-# YYMMDD@HH_MM_SS filename string
+# YYMMDD@HH_MM_SS output filename string
 
 -o %USERPROFILE%\Desktop\%Date:~-2,2%%Date:~4,2%%Date:~7,2%@%time:~0,2%_%time:~3,2%_%time:~6,2%.webm"
 
