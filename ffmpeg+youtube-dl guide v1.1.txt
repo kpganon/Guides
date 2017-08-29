@@ -79,12 +79,19 @@ youtube-dl [options] [URL1] [URL2] [URL3]
 
 youtube-dl --batch-file='/path/to/list.txt'
 
-[Linux only]
+# Copy direct video link to clipboard
+
+youtube-dl -f best -g [URL]|clip
+
+# Open desired video format in mpv
+
+youtube-dl -f bestvideo[ext=mp4] -g | xargs mpv
 
 # Downloading a channel's entire video library as .mp3
-	youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive '~/.config/youtube-dl/downloaded.txt' -o '~/files/youtube/%(uploader)s - %(title)s.%(ext)s'
+
+youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive "C:/path/to/archive.txt" -o "C:/path/to/downloads/%(uploader)s - %(title)s.%(ext)s"
+
+[Linux]
 
 # Automate with cron
-
-Every day @noon
 	@daily youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive '~/.config/youtube-dl/downloaded.txt' -o '~/files/youtube/%(uploader)s - %(title)s.%(ext)s'
