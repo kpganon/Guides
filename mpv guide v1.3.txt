@@ -110,6 +110,7 @@ C.			--playlist=C:\path\to\links.txt
 				   -> type "%USERPROFILE%" in explorer address bar -> select mpv.exe
 		
 				1e. Now just double click any .m3u file to open a playlist in mpv
+					* as seen here: https://i.imgur.com/p0tTEwE.mp4
 		
 2. Save URLs to .m3u file for quick YouTube/web playlists -- https://i.imgur.com/p0tTEwE.gifv
 	2a. Download a browser extension for selecting links then saving to txt file or 
