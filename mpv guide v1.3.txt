@@ -92,8 +92,7 @@ C.			--playlist=C:\path\to\links.txt
 			
 			# Terminal Hotkeys / Defaults
 				https://mpv.io/manual/master/#interactive-control
-				
-			# For info regarding aliases refer to the [Advanced] section on line 44. of this youtube-dl guide: https://pastebin.com/sV9uU5xs
+			# For info regarding aliases refer to the [Advanced] section on line 44. of this youtube-dl guide: https://git.io/v5sMF
 				
 [Tips]
 
