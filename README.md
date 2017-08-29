@@ -25,9 +25,9 @@
 
 # Other
 
-[**userscripts**](https://github.com/kpganon/Guides/blob/master/userscripts.txt)
-
 [**cytu.be/r/kpganon**](https://github.com/kpganon/Guides/blob/master/cytube.txt)
+
+[**userscripts**](https://github.com/kpganon/Guides/blob/master/userscripts.txt)
 
 [**hangul.txt**](https://github.com/kpganon/Guides/blob/master/hangul.txt)
 
