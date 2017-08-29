@@ -88,7 +88,7 @@ Convert to mp4 (for programs that don't support mkv/webm formats)
 # Notes
 
 Helpful ffmpeg+youtube-dl commands
-https://pastebin.com/z8npUD1X
+https://git.io/v5nTG
 
 Youtube-dl wiki
 https://github.com/rg3/youtube-dl/blob/master/README.md#readme
