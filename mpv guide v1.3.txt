@@ -97,6 +97,7 @@ C.			--playlist=C:\path\to\links.txt
 [Tips]
 
 1. Create a local playlist of all files matching an extension within a directory in terminal
+	* note: the included playlist manager plugin does this automatically
 
 	1a. Open terminal (Windows key + R, "cmd")
 	1b. Navigate to folder containing video files (cd C:/path/to/folder or, if on another drive, X: & cd X:/path/to/folder)
