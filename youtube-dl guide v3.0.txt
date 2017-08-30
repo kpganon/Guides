@@ -84,7 +84,7 @@ Convert to mp4 (for programs that don't support mkv/webm formats)
 
 	Any format to mp4
 
-	ffmpeg -i "C:/path/to/input.ts" -vcodec libx264 -acodec aac -preset slow "C:/path/to/output.mp4"
+	ffmpeg -i "C:/path/to/input.ts" -vcodec libx264 -acodec aac -preset veryslow -qp 0 "C:/path/to/output.mp4"
 
 # Notes
 
