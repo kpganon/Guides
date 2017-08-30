@@ -82,7 +82,7 @@ Convert to mp4 (for programs that don't support mkv/webm formats)
 	ffmpeg -i "C:/path/to/input.mkv" -codec copy "C:/path/to/output.mp4"
 		* just drag+drop the file onto command prompt to print the file path
 
-	Any format to mp4
+	Lossless conversion to mp4
 
 	ffmpeg -i "C:/path/to/input.ts" -vcodec libx264 -acodec aac -preset veryslow -qp 0 "C:/path/to/output.mp4"
 
