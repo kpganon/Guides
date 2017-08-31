@@ -17,7 +17,7 @@ echo.
 
   :: Directories
 
-SET WORKDIR=C:\path\to\temporary\directory
+SET WORKDIR=C:\Users\%USERNAME%\Desktop\work_dir
 SET DESTDIR=C:\Users\%USERNAME%\Desktop
 
   :: WEBM settings
