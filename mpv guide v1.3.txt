@@ -40,7 +40,7 @@ https://mpv.io/
 		* Mirror: http://www.mediafire.com/file/eqffg7ed4xs4y5s/mpv_config_1.3.zip
 
 		* input.conf & mpv.conf only: https://git.io/v5GJ6 & https://git.io/v5GJX
-		
+			* check here for the latest versions		
 		* Default mpv configs here: https://github.com/mpv-player/mpv/blob/master/etc/input.conf
 						             https://github.com/mpv-player/mpv/blob/master/etc/mpv.conf
 	
