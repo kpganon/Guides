@@ -72,9 +72,9 @@ file 'C:\path\to\input3.mp4'
 # To stop a stream in progress, press Q in the terminal window
 	* Ctrl+C if it bugs
 
-# Download and convert with ffmpeg
+# Download and cut with ffmpeg
 
-youtube-dl -f bestaudio -o "C:\Users\%USERNAME%\Desktop\%(uploader)s - %(title)s.mp3" --prefer-ffmpeg --ffmpeg-location "C:\Users\%USERNAME%\ffmpeg.exe" --postprocessor-args "-c:a libmp3lame -b:a 125k" [URL]
+youtube-dl -f bestvideo -o "C:\Users\%USERNAME%\Desktop\%(uploader)s - %(title)s.mp4" --prefer-ffmpeg --postprocessor-args "-ss 00:00:28 -to 00:00:31 -vcodec libx264 -an -preset veryslow" https://www.youtube.com/watch?v=p1ePVt0eQMk
 
 # Download multiple urls at once
 
