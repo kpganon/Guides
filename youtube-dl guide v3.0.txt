@@ -51,9 +51,9 @@ Create an alias for youtube-dl
 1. Navigate to your home directory (windows key + R, "%USERPROFILE%")
 2. Create a text file and name it mybatfile.cmd
 3. Add the following lines and save
-		@echo off
+    @echo off
     doskey /macrofile="%USERPROFILE%\myaliases.txt"
-4. Create a second text file and name myaliases.txt
+4. Create a second text file named myaliases.txt
 5. Add the following line and save
 		ydl=youtube-dl -f bestvideo+bestaudio $*
 6. Run Command Prompt (windows key + R "cmd")
