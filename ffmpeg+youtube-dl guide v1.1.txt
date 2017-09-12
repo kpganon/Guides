@@ -92,6 +92,10 @@ youtube-dl -f best -g [URL]|clip
 
 youtube-dl -f bestvideo[ext=mp4] -g | xargs mpv
 
+# Get direct video url via youtube-dl and pipe the link into ffplay with an ffmpeg preset
+
+youtube-dl -g http://www.vlive.tv/video/38196 | xargs ffplay -vf 'curves=preset=vintage' -i
+
 # Downloading a channel's entire video library as .mp3
 
 youtube-dl --ignore-config --extract-audio --audio-format mp3 https://www.youtube.com/channel/UCE_KjzyDk6upIzIlcBMVgzQ/videos --download-archive "C:/path/to/archive.txt" -o "C:/path/to/downloads/%(uploader)s - %(title)s.%(ext)s"
