@@ -70,6 +70,11 @@ file 'C:\path\to\input3.mp4'
 ## YOUTUBE-DL
 
 # To stop a stream in progress, press Q in the terminal window
+	* Ctrl+C if it bugs
+
+# Download and convert with ffmpeg
+
+youtube-dl -f bestaudio -o "C:\Users\%USERNAME%\Desktop\%(uploader)s - %(title)s.mp3" --prefer-ffmpeg --ffmpeg-location "C:\Users\%USERNAME%\ffmpeg.exe" --postprocessor-args "-c:a libmp3lame -b:a 125k" [URL]
 
 # Download multiple urls at once
 
