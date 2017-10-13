@@ -1,4 +1,4 @@
-﻿TERMS:
+TERMS:
 
 직캠 (fancam)
 도끼 (cameltoe) 
@@ -11,8 +11,28 @@
 허벅지 (thighs) 
 가슴 (boobs)
 
+OTHER:
+
+V앱 - V APP
+
 GROUPS:
 
+Idol School/Fromis - 아이돌학교/프로미스
+
+	Saerom - 이새롬
+	Hayoungie - 송하영
+	Seoyeon - 이서연
+	Jisun - 노지선
+	Gyuri - 장규리
+	Nagyung - 이나경
+	Jiheon - 백지헌
+	Chaeyoung - 이채영
+	Jiwon - 박지원
+
+Bonusbaby - 보너스베이비
+
+	Hayoon - 하윤
+	
 Dreamcatcher/Minx - 드림캐쳐/밍스
 	
 	JiU - 지유
@@ -64,6 +84,15 @@ CLC - 씨엘씨
 Brave Girls - 브레이브걸스
 
 	Hyeran - 혜란
+	Hayun - 이하윤
+	Yujeong - 남유정
+	Minyoung - 김민영
+	Yuna - 이유나
+	
+Brave Girls - 브레이브걸스
+
+	Hyeran - 혜란
+	Hayun - 이하윤
 	Yujeong - 남유정
 	Minyoung - 김민영
 	Yuna - 이유나
@@ -76,8 +105,9 @@ Sonamoo - 소나무
 
 	D.ana - 디애나
 	Nahyun - 나현
+	Euijin - 의진
 	
-Laboum - 라붐
+	Laboum - 라붐
 
 	Solbin - 안솔빈
 	Suyeon - 정소연
@@ -106,7 +136,8 @@ Oh My Girl - 오마이걸
 	Jiho - 지호
 	YooA - 유아
 	Hyo - 효정
-
+	Mimi - 미미
+	
 DIA - 다이아
 
 	Chaeyeon - 정채연
@@ -156,7 +187,7 @@ Cosmic Babes - 우주소녀
 	Bona - 보나
 	Luda - 루다
 	Yeonjung - 연정
-
+	Seaweed - 선의
 
 PLEDIS Girlz/PRISTIN - 플레디스 걸즈 // 프리스틴
 
@@ -169,7 +200,7 @@ PLEDIS Girlz/PRISTIN - 플레디스 걸즈 // 프리스틴
 	Yewon - 김예원
 	Rena - 강예빈
 	Siyeon - 시연
-	Pinky - 주결경
+	Kyulkyung - 주결경
 	Yuha - 강경원
 
 Dal★Shabet - 달샤벳
@@ -179,7 +210,6 @@ Dal★Shabet - 달샤벳
 	Subin - 수빈
 	Ah Young - 아영
 	
-
 Sistar - 씨스타
 
 	Bora - 윤보라
@@ -195,7 +225,7 @@ Nine Muses - 나인뮤지스
 	Hyemi - 혜미
 	Keumjo - 금조
 	Moon - 현아
-	 
+
 TWICE - 트와이스
 
 	Sana - 사나
@@ -219,7 +249,6 @@ AOA - 에이오에이
 	Hyejeong - 혜정
 	Mina - 민아
 	Seolhyun - 설현
-
 
 Hello Venus - 헬로비너스
 
