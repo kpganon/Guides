@@ -229,9 +229,10 @@ Nine Muses - 나인뮤지스
 TWICE - 트와이스
 
 	Sana - 사나
-	Mina - 미나
 	Tzuyu - 쯔위
 	Jihyo - 박지효
+	Momo - 모모
+	Jeongyeon - 유정연
 
 APink - 에이핑크
 	
