@@ -26,12 +26,12 @@ Configuration file
 			mkdir %APPDATA%\youtube-dl & echo.>%APPDATA%\youtube-dl\config.txt && start %APPDATA%\youtube-dl && start %APPDATA%\youtube-dl\config.txt
 4. Input one option per line and save
 
-	Recommended options
+	Reccommended options
 
 	-o 'C:/path/to/downloads/%(uploader)s - %(title)s.%(ext)s'
 		* https://github.com/rg3/youtube-dl/blob/master/README.md#output-template
 	--add-metadata
-  --ignore-errors
+  	--ignore-errors
 	--download-archive C:\Users\[your username]\AppData\Roaming\youtube-dl\downloaded.txt
 		* this will keep a list of urls you downloaded and skip them
 	-f bestvideo+bestaudio
