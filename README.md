@@ -18,7 +18,7 @@
 
 # Downloading images
 
-[**ripping kpics**](https://github.com/kpganon/Guides/blob/master/ripping%20kpics%20with%20downthemall%20v1.2.txt)
+[**ripping kpics with downthemall**](https://github.com/kpganon/Guides/blob/master/ripping%20kpics%20with%20downthemall%20v1.2.txt)
 
 ~~[**scraping tistory**](https://github.com/kpganon/Guides/blob/master/scraping%20tistory%20v1.2.txt)~~
 
