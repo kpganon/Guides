@@ -33,13 +33,14 @@ SOLO:
 
 GROUPS:
 
-Dreamnote - 드림노트
+iME Girls/Dreamnote - 아이엠이걸즈 / 드림노트
 
 	Sumin - 수민
-	Hanbyeol - 한별
+	Hanbyul - 한별
 	Eunjo -  은저
-	Youi - 유아이
+	Jihyeon - 유아이
 	Habin - 하빈
+	Jinsol - 박진솔
 
 AKB48
 
@@ -67,15 +68,6 @@ Poplay - 팝플레이
 	Soojin - 강수진
 	Haegyu - 안해규
 	Yujin - 조유진
-
-iME Girls - 아이엠이걸즈 / 드림노트
-
-	Soomin - 박수민
-	Hanbyul - 안한별
-	Eunjo - 박은조
-	Jihyun - 김지현
-	Jooyeon - 김주연
-	Jinsol - 박진솔
 	
 Produce48 - 프로듀스48
 
