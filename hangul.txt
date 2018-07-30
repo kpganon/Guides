@@ -2,22 +2,158 @@ TERMS:
 
 직캠 (fancam)
 도끼 (cameltoe)
-몸매 (body)
-섹시한 (sexy)
-복근 (abs)
-배꼽 (navel)
-엉덩이 (butt)
-다리 (legs)
-허벅지 (thighs)
+도끼라인 (axe line)
+몸매 (body) 
+섹시한 (sexy) 
+복근 (abs) 
+배꼽 (navel) 
+엉덩이 (butt) 
+다리 (legs) 
+허벅지 (thighs) 
 가슴 (boobs)
+키스 (kiss)
+속옷 (underwear)
+민낯|민낮 (bare face)
+합숙소 (dorm)
+교복 (uniform)
+허리 (waist)
+말총머리 (ponytail)
+V앱 (vapp)
+V로그 (vlog)
+南韩 (south korea)
+の占い (showroom)
+키즈 (kids)
 
-OTHER:
+SOLO:
 
-V앱 - V APP
+	Son Yeonjae - 	손연재
+	Eyedifu - 아이디
+	Ahn Jihyun (Cheerleaderfu) - 치어리더 안지현
+	Shin Yeeun - 신예은
 
 GROUPS:
 
-Idol School/Fromis - 아이돌학교/프로미스
+Dreamnote - 드림노트
+
+	Sumin - 수민
+	Hanbyeol - 한별
+	Eunjo -  은저
+	Youi - 유아이
+	Habin - 하빈
+
+AKB48
+
+	Haruna Saito - 	齋藤 陽菜
+
+GWSN - 공원소녀
+
+	Lena - 레나
+	Minju - 민주
+
+AZM - 에이지엠
+
+	Eunji - 은지
+	
+Girl Crush - 걸크러쉬
+
+	Bomi - 보미
+
+Live High - 리브하이
+
+	Gabin - 가빈
+	
+Poplay - 팝플레이
+
+	Soojin - 강수진
+	Haegyu - 안해규
+	Yujin - 조유진
+
+iME Girls - 아이엠이걸즈 / 드림노트
+
+	Soomin - 박수민
+	Hanbyul - 안한별
+	Eunjo - 박은조
+	Jihyun - 김지현
+	Jooyeon - 김주연
+	Jinsol - 박진솔
+	
+Produce48 - 프로듀스48
+
+	Ahn Yujin - 안유진
+	Choi Yena - 최예나
+	Jang Wonyoung - 장원영
+	Wang Yireon - 왕이런
+	Huh Yunjin - 플레디스
+	Lee Yujeong - 이유정
+	Lee Chaeyeon - 이채연
+	Kim Sihyun - 김시현
+	Kim Chaewon - 김채원
+	Kim Minjoo - 김민주
+	Kim Choyeon - 김초연
+	Kim Nayoung - 김나영
+	Kim Minju - 김민주
+	Hwang Soyeon - 황소연
+	Lee Haeun - 이하은
+	Kang Hyewon - 강혜원  
+	Yoon Eunbin - 윤은빈
+	Yoon Haesol - 윤해솔
+	Son Eunchae - 손은채
+	Chiba Erii - 치바 에리이 / 千葉恵里
+	Miru Shiroma - 시로마 미루 / 白間美瑠
+	Sato Minami - 사토 미나미 / 佐藤美波
+	Nako Yabuki - 야부키 / 矢吹奈子
+	Noe Yamada - 야마다 노에 / 山田野絵
+	Kurihara Sae - 쿠리하라사에 / 栗原紗英
+	Iwawate Saho - 이와타테 사호 / 岩立沙穂
+	Honda Hitomi - 혼다 히토미 / 本田仁美
+	Murakawa Vivian - 무라카와 비비안 / 村川緋杏
+
+Produce101 China - 创造101
+
+	Yang Chaoyue - 楊超越
+	Gao Qiuzi (Memer) - 高秋梓
+	Gao Yingxi - 高穎浠
+	Lv Xiaoyu - 呂小雨
+	Li Zixuan (Glassesfu) - 李子璇
+	Chen Yihan - 陳意涵
+	Wang Mohan - 王莫涵
+	Lu Xiaocao (Sua lookalike) - 鹿小草
+	Jiang Yanxi - 姜彥汐
+	Lai Meiyun - 賴美雲
+	Chinkyeo - 林君怡
+	
+G-IDLE - 아이들
+
+	Yuqi - 우기
+	Miyeon - 미연
+	Shuhua - 슈화
+	
+Busters - 버스터즈
+	
+	Minji - 민지
+	Hyeongseo - 형서
+	Jisoo - 지수
+	Chaeyeon - 채연
+	
+MIX9 - 믹스나인
+
+	Park Soomin - 박수민
+	Lee Sujin - 이수진
+
+S.I.S - 에스아이에스
+
+	Sebin - 세빈
+
+Good Day - 굿데이
+
+	Lucky - 럭키
+	Genie - 지니
+	Cherry - 체리
+	Chaesol - 채솔
+	Nayoon - 나윤
+	Bomin - 보민
+	
+Idol School/Fromis - 아이돌학교/프로미스/프로미스나인
 
 	Saerom - 이새롬
 	Hayoungie - 송하영
@@ -28,13 +164,19 @@ Idol School/Fromis - 아이돌학교/프로미스
 	Jiheon - 백지헌
 	Chaeyoung - 이채영
 	Jiwon - 박지원
-
+	
+	Yoo Jina - 유지나
+	Lee Sian - 이시안
+	Seo Herin - 헤린
+	Kim Eunkyul - 김은결
+	Snowbaby - 스노우 베이비
+	
 Bonusbaby - 보너스베이비
 
 	Hayoon - 하윤
-
+	
 Dreamcatcher/Minx - 드림캐쳐/밍스
-
+	
 	JiU - 지유
 	SuA - 수아
 	Siyeon - 시연
@@ -57,7 +199,9 @@ LOONA - 이달의 소녀
 	Lippyfu - 김립
 	Choerry - 최리
 	Jinsoul - 진솔
-
+	Chuu - 츄
+	Gowon - 고원
+	
 Gugudan - 구구단
 
 	Sejeong - 세정
@@ -67,24 +211,24 @@ Gugudan - 구구단
 	Sally - 살리
 	Mimi - 미미
 	Hyeyeon - 혜연
-
+	
 April - 에이프릴
-
+	
 	Chaewon - 김채원
 	Jinsol - 이진솔
 	Chaekyung - 윤채경
 	Yena - 양예나
 	Naeun - 이나은
 	Rachel - 레이첼
+	Hyunjoo - 현주
 
 CLC - 씨엘씨
 
-	Ratqt - 최유진
+	Yujin - 최유진
 	Seungyeon - 장승연
 	Yeeun - 장예은
-	Eunbin - 권은빈
 	Elkie - 엘키
-
+	
 Brave Girls - 브레이브걸스
 
 	Hyeran - 혜란
@@ -92,32 +236,20 @@ Brave Girls - 브레이브걸스
 	Yujeong - 남유정
 	Minyoung - 김민영
 	Yuna - 이유나
-
-Brave Girls - 브레이브걸스
-
-	Hyeran - 혜란
-	Hayun - 이하윤
-	Yujeong - 남유정
-	Minyoung - 김민영
-	Yuna - 이유나
-
-Switch - 스위치
-
-	Gayoung - 가영
 
 Sonamoo - 소나무
 
 	D.ana - 디애나
 	Nahyun - 나현
 	Euijin - 의진
-
+	
 Laboum - 라붐
 
 	Solbin - 안솔빈
 	Suyeon - 정소연
 	ZN - 지엔
 	Yulhee - 김율희
-	Tight Leader (Yujeong) - 김유정
+	Tight Leader (Yujeong) - 김유정 
 
 Playback - 플레이백
 
@@ -125,12 +257,12 @@ Playback - 플레이백
 
 Momoland - 모모랜드
 
-	Nancy - 낸시
+	Nancy - 낸시  
 	Yeonwoo - 연우
 	Hyebin - 혜빈
 
 Bob Girls - 단발머리
-
+	
 	JiNa - 염지나
 
 Oh My Girl - 오마이걸
@@ -139,15 +271,15 @@ Oh My Girl - 오마이걸
 	Binnie - 비니
 	Jiho - 지호
 	YooA - 유아
-	Hyo - 효정
+	Hyojung - 효정
 	Mimi - 미미
-
+	
 DIA - 다이아
 
 	Chaeyeon - 정채연
 	Huihyeon - 기희현
-	Yebin - 백예빈
-
+	Jueun - 주은
+	
 Girl's Day - 걸스데이
 
 	Sojin - 소진
@@ -167,7 +299,7 @@ Bestie - 베스티
 	Hyeyeon - 혜연
 
 I.O.I - 아이오아이
-
+	
 	Sejeong - 김세정
 	Chaeyeon - 정채연
 	Pinky - 주결경
@@ -176,7 +308,7 @@ I.O.I - 아이오아이
 	Doytoy - 김도연
 	Somi - 전소미
 	Chungha - 김청하
-
+	
 Cosmic Babes - 우주소녀
 
 	Chengie - 성소
@@ -212,7 +344,7 @@ Dal★Shabet - 달샤벳
 	Serri - 세리
 	Subin - 수빈
 	Ah Young - 아영
-
+	
 Sistar - 씨스타
 
 	Bora - 윤보라
@@ -238,8 +370,8 @@ TWICE - 트와이스
 	Jeongyeon - 유정연
 
 APink - 에이핑크
-
-	Cho-rong - 박초롱
+	
+	Chorong - 박초롱
 	Bomi - 윤보미
 	Naeun - 손나은
 	Namjoo - 김남주
@@ -247,8 +379,6 @@ APink - 에이핑크
 
 AOA - 에이오에이
 
-	Choa - 초아
-	Jimin - 지민
 	Yuna - 유나
 	Hyejeong - 혜정
 	Mina - 민아
@@ -263,6 +393,10 @@ Hello Venus - 헬로비너스
 	Yeoreum - 안채연
 	Yooyoung - 유영
 	Seoyoung - 서영
+	
+BP - 블랙핑크
+	
+	Jithoo - 지수
 
 Red Velvet - 레드벨벳
 
@@ -273,7 +407,7 @@ Stellar - 스텔라
 
 	Minhee - 민희
 	Jeonyoul - 전율
-
+	
 MIXX - 믹스
 
 	Heeyu - 희유
@@ -285,33 +419,39 @@ Switch - 스위치
 
 SNSD - 소녀시대
 
-	Tae - 김태연
 	Yoona - 임윤아
 	Yuri - 권유리
-
+	Taeyeon - 김태연
+	
 Kara - 카라
 
 	Seungyeon - 한승연
 
 Lovelyz - 러블리즈
-
+	
 	Jisoo - 서지수
 	Yein - 정예인
-
+	Jiae - 유지애
+	
 Lipbubble - 립버블
 
 	Seoryn - 서린
 	Eunbyul - 은별
 	Hanbi - 한비
-
+	
 Weki Meki - 위키미키
 
-	Soeun (Rina) - 리나
+	Rina - 리나
 	Say - 세이
 	Lua - 루아
 	Lucy - 루시
-
+	Elly - 엘리
+	
 Real Girl's Project - 리얼걸프로젝트
 The Ark - 디아크
-
+	
 	Suji (Halla)- 수지 (한라)
+	
+Tahiti - 타히티 
+
+	Jisoo - 지수
